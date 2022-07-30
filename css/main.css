@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400&display=swap');
+
+* {  
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5e5e5e;
+  --secondary-color: #ffffff;
+}
+
+body {
+  background: var(--primary-color);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#collisionCanvas {
+   opacity: 0;
+}
+
+#canvas1 { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
